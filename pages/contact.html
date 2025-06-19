@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>University Web-Site</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196633.99703724627!2d66.80307759875376!3d39.64057190046632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d191960077df7%3A0x487636d9d13f2f57!2z0KHQsNC80LDRgNC60LDQvdC0LCDQodCw0LzQsNGA0LrQsNC90LTRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1747356905177!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="icon fa-solid fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Karnataka, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="icon fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+1 0121314214</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form>
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat repellat, temporibus inventore quis pariatur<br>exercitationem. Dignissimos laudantium pariatur odio at est, sint repellendus.</p>
+
+        <div class="icons">
+            <i class="icon fa-brands fa-facebook"></i>
+            <i class="icon fa-brands fa-twitter"></i>
+            <i class="icon fa-brands fa-instagram"></i>
+            <i class="icon fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    <script type="module" src="../script/scirpt.js"></script>
+
+</body>
+</html>
